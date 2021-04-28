@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118F3DE3165ACE7C3FFE48BB809874BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2DDAD4D4DFC6F2F422D8E5B7C7BC0A4D /* Pods-immsocket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DDFAC2EF408E9A50EC55EBD23415BF /* Pods-immsocket_Tests-dummy.m */; };
+		57ABA453422C7566FE10BFE83427D35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		7C30090D2FA0D4CB7BA7476508C3D9A5 /* Pods-immsocket_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74834AE18B3E9FD05489B9478EBB7D6F /* Pods-immsocket_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5AFE07A26391EE000C6D554 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE07726391EE000C6D554 /* Connection.m */; };
+		A5AFE07B26391EE000C6D554 /* Connection.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE07826391EE000C6D554 /* Connection.h */; };
+		A5AFE07C26391EE000C6D554 /* ConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE07926391EE000C6D554 /* ConnectionDelegate.h */; };
+		A5AFE08626391F1300C6D554 /* ServerBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08026391F1200C6D554 /* ServerBrowser.h */; };
+		A5AFE08726391F1300C6D554 /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08126391F1200C6D554 /* Server.h */; };
+		A5AFE08826391F1300C6D554 /* ServerBrowserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08226391F1200C6D554 /* ServerBrowserDelegate.h */; };
+		A5AFE08926391F1300C6D554 /* ServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08326391F1300C6D554 /* ServerDelegate.h */; };
+		A5AFE08A26391F1300C6D554 /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE08426391F1300C6D554 /* ServerBrowser.m */; };
+		A5AFE08B26391F1300C6D554 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE08526391F1300C6D554 /* Server.m */; };
+		A5AFE09626391F3000C6D554 /* BaseServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08F26391F3000C6D554 /* BaseServer.h */; };
+		A5AFE09726391F3000C6D554 /* LoaclServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE09026391F3000C6D554 /* LoaclServer.h */; };
+		A5AFE09826391F3000C6D554 /* BaseServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE09126391F3000C6D554 /* BaseServerDelegate.h */; };
+		A5AFE09926391F3000C6D554 /* ClientServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE09226391F3000C6D554 /* ClientServer.m */; };
+		A5AFE09A26391F3000C6D554 /* BaseServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE09326391F3000C6D554 /* BaseServer.m */; };
+		A5AFE09B26391F3000C6D554 /* LoaclServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE09426391F3000C6D554 /* LoaclServer.m */; };
+		A5AFE09C26391F3000C6D554 /* ClientServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE09526391F3000C6D554 /* ClientServer.h */; };
+		A5AFE0AA26391FA600C6D554 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE0A026391FA500C6D554 /* ViewController.m */; };
+		A5AFE0AB26391FA600C6D554 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE0A126391FA500C6D554 /* ViewController.h */; };
+		A5AFE0AC26391FA600C6D554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AFE0A226391FA500C6D554 /* Main.storyboard */; };
+		A5AFE0AD26391FA600C6D554 /* UIView+CoverUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE0A326391FA500C6D554 /* UIView+CoverUtils.m */; };
+		A5AFE0AE26391FA600C6D554 /* ChatWeViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE0A426391FA600C6D554 /* ChatWeViewCell.h */; };
+		A5AFE0AF26391FA600C6D554 /* ServerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE0A526391FA600C6D554 /* ServerListViewController.m */; };
+		A5AFE0B026391FA600C6D554 /* UIView+CoverUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE0A626391FA600C6D554 /* UIView+CoverUtils.h */; };
+		A5AFE0B126391FA600C6D554 /* ChatWeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE0A726391FA600C6D554 /* ChatWeViewCell.m */; };
+		A5AFE0B226391FA600C6D554 /* ServerListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE0A826391FA600C6D554 /* ServerListViewController.h */; };
+		A5AFE0B326391FA600C6D554 /* ChatWeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AFE0A926391FA600C6D554 /* ChatWeViewCell.xib */; };
+		AEB4985A9AD96ACCA198A1B74D844C1A /* immsocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CA2464685A0FC89633B1668A3D1C6F /* immsocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B78B3C94EF674AF47BB30B98A258957C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F87A8B39F45E103E8981F7634F7300 /* ReplaceMe.m */; };
+		D316C1EDE6A0D79C1F69F4790EE71AFB /* immsocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA21E9654F6D8157CEB25DC5B7313F4 /* immsocket-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B925F2F292D58E55F1F5CFA04358642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5903936BC34A5C5CC4F5DAAF9A96F99F;
+			remoteInfo = immsocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0206DF033FE1A5A44185692FB48ED817 /* immsocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = immsocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		161B08DF354EB85AC62A90EFA8160F27 /* immsocket.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = immsocket.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		17C3B4661DE79F0F1BF43016D1063D9E /* immsocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "immsocket-prefix.pch"; sourceTree = "<group>"; };
+		1C1ECED6AE96BAB4928859A3BC6488BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		2723F8C2C123047485AF942E89514D36 /* Pods-immsocket_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-immsocket_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3F022C56948C405823FBDEF214F4F04B /* Pods-immsocket_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-immsocket_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		45B0C326D135DE587FD365112E4EAF6A /* immsocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "immsocket-Info.plist"; sourceTree = "<group>"; };
+		57BA3C05D16839A47B678068AF9838DC /* Pods-immsocket_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-immsocket_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		74834AE18B3E9FD05489B9478EBB7D6F /* Pods-immsocket_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-immsocket_Tests-umbrella.h"; sourceTree = "<group>"; };
+		755F9A814C0F38FFC779613FA00915F8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8D807C957BB31B0DC43B821F26326E91 /* Pods-immsocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-immsocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		95CA2464685A0FC89633B1668A3D1C6F /* immsocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "immsocket-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A5AFE07726391EE000C6D554 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		A5AFE07826391EE000C6D554 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		A5AFE07926391EE000C6D554 /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		A5AFE08026391F1200C6D554 /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
+		A5AFE08126391F1200C6D554 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		A5AFE08226391F1200C6D554 /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
+		A5AFE08326391F1300C6D554 /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
+		A5AFE08426391F1300C6D554 /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
+		A5AFE08526391F1300C6D554 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		A5AFE08F26391F3000C6D554 /* BaseServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServer.h; sourceTree = "<group>"; };
+		A5AFE09026391F3000C6D554 /* LoaclServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaclServer.h; sourceTree = "<group>"; };
+		A5AFE09126391F3000C6D554 /* BaseServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServerDelegate.h; sourceTree = "<group>"; };
+		A5AFE09226391F3000C6D554 /* ClientServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientServer.m; sourceTree = "<group>"; };
+		A5AFE09326391F3000C6D554 /* BaseServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseServer.m; sourceTree = "<group>"; };
+		A5AFE09426391F3000C6D554 /* LoaclServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaclServer.m; sourceTree = "<group>"; };
+		A5AFE09526391F3000C6D554 /* ClientServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientServer.h; sourceTree = "<group>"; };
+		A5AFE0A026391FA500C6D554 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5AFE0A126391FA500C6D554 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5AFE0A226391FA500C6D554 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A5AFE0A326391FA500C6D554 /* UIView+CoverUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CoverUtils.m"; sourceTree = "<group>"; };
+		A5AFE0A426391FA600C6D554 /* ChatWeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatWeViewCell.h; sourceTree = "<group>"; };
+		A5AFE0A526391FA600C6D554 /* ServerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerListViewController.m; sourceTree = "<group>"; };
+		A5AFE0A626391FA600C6D554 /* UIView+CoverUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CoverUtils.h"; sourceTree = "<group>"; };
+		A5AFE0A726391FA600C6D554 /* ChatWeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatWeViewCell.m; sourceTree = "<group>"; };
+		A5AFE0A826391FA600C6D554 /* ServerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerListViewController.h; sourceTree = "<group>"; };
+		A5AFE0A926391FA600C6D554 /* ChatWeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWeViewCell.xib; sourceTree = "<group>"; };
+		B5A2B7BF8C99558D30409AC7208BB57E /* Pods-immsocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-immsocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA6E154F6C19084402EE6C98A7D308F4 /* Pods-immsocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-immsocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D37DF43A0AE757F95818475DC1B149FB /* immsocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = immsocket.modulemap; sourceTree = "<group>"; };
+		D6DDFAC2EF408E9A50EC55EBD23415BF /* Pods-immsocket_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-immsocket_Tests-dummy.m"; sourceTree = "<group>"; };
+		D8B2EF77D7EF24E188ED103B086079B0 /* immsocket.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = immsocket.debug.xcconfig; sourceTree = "<group>"; };
+		E99AE444262E11C3B11A5BBA4EBD8801 /* immsocket.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = immsocket.release.xcconfig; sourceTree = "<group>"; };
+		EC11650F533B8E86B3FBB11E55D8FE96 /* Pods_immsocket_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_immsocket_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECA21E9654F6D8157CEB25DC5B7313F4 /* immsocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "immsocket-dummy.m"; sourceTree = "<group>"; };
+		F5F87A8B39F45E103E8981F7634F7300 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = immsocket/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		FC72E1031E5B48BCE6CF0F2027F22C0F /* Pods-immsocket_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-immsocket_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		111A8448A92516ACE795064E3615392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				118F3DE3165ACE7C3FFE48BB809874BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5154EC83A58E1A38922A6264C14231C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57ABA453422C7566FE10BFE83427D35D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AB9173B9EE62AE785A9183CC0048523 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2E0B88631738CC7650A73D97594FA5D /* immsocket */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7F202B1960462F4EDDD0BB5E45EE6744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0206DF033FE1A5A44185692FB48ED817 /* immsocket.framework */,
+				EC11650F533B8E86B3FBB11E55D8FE96 /* Pods_immsocket_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		93B927B5EBA36F09C16147E0C079E960 /* Pods-immsocket_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				FC72E1031E5B48BCE6CF0F2027F22C0F /* Pods-immsocket_Tests.modulemap */,
+				B5A2B7BF8C99558D30409AC7208BB57E /* Pods-immsocket_Tests-acknowledgements.markdown */,
+				2723F8C2C123047485AF942E89514D36 /* Pods-immsocket_Tests-acknowledgements.plist */,
+				D6DDFAC2EF408E9A50EC55EBD23415BF /* Pods-immsocket_Tests-dummy.m */,
+				3F022C56948C405823FBDEF214F4F04B /* Pods-immsocket_Tests-frameworks.sh */,
+				57BA3C05D16839A47B678068AF9838DC /* Pods-immsocket_Tests-Info.plist */,
+				74834AE18B3E9FD05489B9478EBB7D6F /* Pods-immsocket_Tests-umbrella.h */,
+				8D807C957BB31B0DC43B821F26326E91 /* Pods-immsocket_Tests.debug.xcconfig */,
+				CA6E154F6C19084402EE6C98A7D308F4 /* Pods-immsocket_Tests.release.xcconfig */,
+			);
+			name = "Pods-immsocket_Tests";
+			path = "Target Support Files/Pods-immsocket_Tests";
+			sourceTree = "<group>";
+		};
+		A5AFE07626391EB800C6D554 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A5AFE07826391EE000C6D554 /* Connection.h */,
+				A5AFE07726391EE000C6D554 /* Connection.m */,
+				A5AFE07926391EE000C6D554 /* ConnectionDelegate.h */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A5AFE07F26391EFD00C6D554 /* ServerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A5AFE08126391F1200C6D554 /* Server.h */,
+				A5AFE08526391F1300C6D554 /* Server.m */,
+				A5AFE08026391F1200C6D554 /* ServerBrowser.h */,
+				A5AFE08426391F1300C6D554 /* ServerBrowser.m */,
+				A5AFE08226391F1200C6D554 /* ServerBrowserDelegate.h */,
+				A5AFE08326391F1300C6D554 /* ServerDelegate.h */,
+			);
+			path = ServerAPI;
+			sourceTree = "<group>";
+		};
+		A5AFE08E26391F1F00C6D554 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				A5AFE08F26391F3000C6D554 /* BaseServer.h */,
+				A5AFE09326391F3000C6D554 /* BaseServer.m */,
+				A5AFE09126391F3000C6D554 /* BaseServerDelegate.h */,
+				A5AFE09526391F3000C6D554 /* ClientServer.h */,
+				A5AFE09226391F3000C6D554 /* ClientServer.m */,
+				A5AFE09026391F3000C6D554 /* LoaclServer.h */,
+				A5AFE09426391F3000C6D554 /* LoaclServer.m */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		A5AFE09F26391F8F00C6D554 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				A5AFE0A426391FA600C6D554 /* ChatWeViewCell.h */,
+				A5AFE0A726391FA600C6D554 /* ChatWeViewCell.m */,
+				A5AFE0A926391FA600C6D554 /* ChatWeViewCell.xib */,
+				A5AFE0A226391FA500C6D554 /* Main.storyboard */,
+				A5AFE0A826391FA600C6D554 /* ServerListViewController.h */,
+				A5AFE0A526391FA600C6D554 /* ServerListViewController.m */,
+				A5AFE0A626391FA600C6D554 /* UIView+CoverUtils.h */,
+				A5AFE0A326391FA500C6D554 /* UIView+CoverUtils.m */,
+				A5AFE0A126391FA500C6D554 /* ViewController.h */,
+				A5AFE0A026391FA500C6D554 /* ViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C34BBDABE8902FDC98BCB1019A9B5480 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D37DF43A0AE757F95818475DC1B149FB /* immsocket.modulemap */,
+				ECA21E9654F6D8157CEB25DC5B7313F4 /* immsocket-dummy.m */,
+				45B0C326D135DE587FD365112E4EAF6A /* immsocket-Info.plist */,
+				17C3B4661DE79F0F1BF43016D1063D9E /* immsocket-prefix.pch */,
+				95CA2464685A0FC89633B1668A3D1C6F /* immsocket-umbrella.h */,
+				D8B2EF77D7EF24E188ED103B086079B0 /* immsocket.debug.xcconfig */,
+				E99AE444262E11C3B11A5BBA4EBD8801 /* immsocket.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/immsocket";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				7AB9173B9EE62AE785A9183CC0048523 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				7F202B1960462F4EDDD0BB5E45EE6744 /* Products */,
+				EE8413E7E31DFB083F67443FEE63996F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2E0B88631738CC7650A73D97594FA5D /* immsocket */ = {
+			isa = PBXGroup;
+			children = (
+				A5AFE09F26391F8F00C6D554 /* UI */,
+				A5AFE08E26391F1F00C6D554 /* Server */,
+				A5AFE07F26391EFD00C6D554 /* ServerAPI */,
+				A5AFE07626391EB800C6D554 /* Network */,
+				F5F87A8B39F45E103E8981F7634F7300 /* ReplaceMe.m */,
+				E3AE576B7A0488B557E0AB442826D015 /* Pod */,
+				C34BBDABE8902FDC98BCB1019A9B5480 /* Support Files */,
+			);
+			name = immsocket;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		E3AE576B7A0488B557E0AB442826D015 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				161B08DF354EB85AC62A90EFA8160F27 /* immsocket.podspec */,
+				1C1ECED6AE96BAB4928859A3BC6488BC /* LICENSE */,
+				755F9A814C0F38FFC779613FA00915F8 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		EE8413E7E31DFB083F67443FEE63996F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				93B927B5EBA36F09C16147E0C079E960 /* Pods-immsocket_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		567576A8D9B308D3FF0640D9A2DD3B92 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AFE08626391F1300C6D554 /* ServerBrowser.h in Headers */,
+				A5AFE08826391F1300C6D554 /* ServerBrowserDelegate.h in Headers */,
+				A5AFE07C26391EE000C6D554 /* ConnectionDelegate.h in Headers */,
+				A5AFE0AE26391FA600C6D554 /* ChatWeViewCell.h in Headers */,
+				A5AFE07B26391EE000C6D554 /* Connection.h in Headers */,
+				A5AFE0B226391FA600C6D554 /* ServerListViewController.h in Headers */,
+				A5AFE09726391F3000C6D554 /* LoaclServer.h in Headers */,
+				A5AFE0AB26391FA600C6D554 /* ViewController.h in Headers */,
+				A5AFE09626391F3000C6D554 /* BaseServer.h in Headers */,
+				AEB4985A9AD96ACCA198A1B74D844C1A /* immsocket-umbrella.h in Headers */,
+				A5AFE09C26391F3000C6D554 /* ClientServer.h in Headers */,
+				A5AFE09826391F3000C6D554 /* BaseServerDelegate.h in Headers */,
+				A5AFE0B026391FA600C6D554 /* UIView+CoverUtils.h in Headers */,
+				A5AFE08726391F1300C6D554 /* Server.h in Headers */,
+				A5AFE08926391F1300C6D554 /* ServerDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		599AFB94E17A9CB627B53CE0EBA925BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C30090D2FA0D4CB7BA7476508C3D9A5 /* Pods-immsocket_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5903936BC34A5C5CC4F5DAAF9A96F99F /* immsocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABA48E728AFE272762CBB89B14C4B077 /* Build configuration list for PBXNativeTarget "immsocket" */;
+			buildPhases = (
+				567576A8D9B308D3FF0640D9A2DD3B92 /* Headers */,
+				D10E1856C0C7DF3AFD378E216B85DEE6 /* Sources */,
+				5154EC83A58E1A38922A6264C14231C1 /* Frameworks */,
+				BCA49E6E1611467A9C068D53247EA2DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = immsocket;
+			productName = immsocket;
+			productReference = 0206DF033FE1A5A44185692FB48ED817 /* immsocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D9A4E99E9CFBC1F5C112A08ABBFBFB4C /* Pods-immsocket_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9319BB3E89CC2DD4E682F4C5EDD72E /* Build configuration list for PBXNativeTarget "Pods-immsocket_Tests" */;
+			buildPhases = (
+				599AFB94E17A9CB627B53CE0EBA925BD /* Headers */,
+				2E98996A2E633E92B8BDEABD986BA8AF /* Sources */,
+				111A8448A92516ACE795064E3615392D /* Frameworks */,
+				97B6A398735DFB827FAA493129E84A80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D7BF9AE632F72568C5D71EC7DFD3906 /* PBXTargetDependency */,
+			);
+			name = "Pods-immsocket_Tests";
+			productName = "Pods-immsocket_Tests";
+			productReference = EC11650F533B8E86B3FBB11E55D8FE96 /* Pods_immsocket_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 7F202B1960462F4EDDD0BB5E45EE6744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5903936BC34A5C5CC4F5DAAF9A96F99F /* immsocket */,
+				D9A4E99E9CFBC1F5C112A08ABBFBFB4C /* Pods-immsocket_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		97B6A398735DFB827FAA493129E84A80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BCA49E6E1611467A9C068D53247EA2DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AFE0B326391FA600C6D554 /* ChatWeViewCell.xib in Resources */,
+				A5AFE0AC26391FA600C6D554 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2E98996A2E633E92B8BDEABD986BA8AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DDAD4D4DFC6F2F422D8E5B7C7BC0A4D /* Pods-immsocket_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D10E1856C0C7DF3AFD378E216B85DEE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5AFE0AA26391FA600C6D554 /* ViewController.m in Sources */,
+				A5AFE0AF26391FA600C6D554 /* ServerListViewController.m in Sources */,
+				A5AFE0B126391FA600C6D554 /* ChatWeViewCell.m in Sources */,
+				A5AFE09A26391F3000C6D554 /* BaseServer.m in Sources */,
+				D316C1EDE6A0D79C1F69F4790EE71AFB /* immsocket-dummy.m in Sources */,
+				A5AFE09B26391F3000C6D554 /* LoaclServer.m in Sources */,
+				A5AFE08A26391F1300C6D554 /* ServerBrowser.m in Sources */,
+				B78B3C94EF674AF47BB30B98A258957C /* ReplaceMe.m in Sources */,
+				A5AFE0AD26391FA600C6D554 /* UIView+CoverUtils.m in Sources */,
+				A5AFE07A26391EE000C6D554 /* Connection.m in Sources */,
+				A5AFE08B26391F1300C6D554 /* Server.m in Sources */,
+				A5AFE09926391F3000C6D554 /* ClientServer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D7BF9AE632F72568C5D71EC7DFD3906 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = immsocket;
+			target = 5903936BC34A5C5CC4F5DAAF9A96F99F /* immsocket */;
+			targetProxy = 6B925F2F292D58E55F1F5CFA04358642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		09A7CF3DE8D3C30866541A0BAF7CD8B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8B2EF77D7EF24E188ED103B086079B0 /* immsocket.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/immsocket/immsocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/immsocket/immsocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/immsocket/immsocket.modulemap";
+				PRODUCT_MODULE_NAME = immsocket;
+				PRODUCT_NAME = immsocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		42ABB37E7D0DD0A999A730D5C7AB86D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99AE444262E11C3B11A5BBA4EBD8801 /* immsocket.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/immsocket/immsocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/immsocket/immsocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/immsocket/immsocket.modulemap";
+				PRODUCT_MODULE_NAME = immsocket;
+				PRODUCT_NAME = immsocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		431BA2B8298F0EE71735B9E0114E1955 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		648EC172023B87FE4BEB11A791F73C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA6E154F6C19084402EE6C98A7D308F4 /* Pods-immsocket_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-immsocket_Tests/Pods-immsocket_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-immsocket_Tests/Pods-immsocket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79759604D78320E712558F49DF19AA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		980207350AFEEA5828C65F14C51563CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D807C957BB31B0DC43B821F26326E91 /* Pods-immsocket_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-immsocket_Tests/Pods-immsocket_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-immsocket_Tests/Pods-immsocket_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79759604D78320E712558F49DF19AA9F /* Debug */,
+				431BA2B8298F0EE71735B9E0114E1955 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9319BB3E89CC2DD4E682F4C5EDD72E /* Build configuration list for PBXNativeTarget "Pods-immsocket_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				980207350AFEEA5828C65F14C51563CE /* Debug */,
+				648EC172023B87FE4BEB11A791F73C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABA48E728AFE272762CBB89B14C4B077 /* Build configuration list for PBXNativeTarget "immsocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09A7CF3DE8D3C30866541A0BAF7CD8B1 /* Debug */,
+				42ABB37E7D0DD0A999A730D5C7AB86D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

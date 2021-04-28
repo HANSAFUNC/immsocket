@@ -1,0 +1,16 @@
+PODS:
+  - immsocket (0.1.0)
+
+DEPENDENCIES:
+  - immsocket (from `../`)
+
+EXTERNAL SOURCES:
+  immsocket:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  immsocket: 71fb9190a6caea7a40558a4f7ef9fab9b6b99ae2
+
+PODFILE CHECKSUM: d5b1e041c1f0545f492b06e2e21a982e1d073dcf
+
+COCOAPODS: 1.10.1

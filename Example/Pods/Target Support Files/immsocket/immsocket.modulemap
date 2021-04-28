@@ -1,0 +1,6 @@
+framework module immsocket {
+  umbrella header "immsocket-umbrella.h"
+
+  export *
+  module * { export * }
+}
