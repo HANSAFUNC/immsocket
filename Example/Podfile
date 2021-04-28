@@ -1,0 +1,6 @@
+use_frameworks!
+target 'immsocket_Tests' do
+  pod 'immsocket', :path => '../'
+  
+  
+end
