@@ -11,32 +11,32 @@
 		2DDAD4D4DFC6F2F422D8E5B7C7BC0A4D /* Pods-immsocket_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DDFAC2EF408E9A50EC55EBD23415BF /* Pods-immsocket_Tests-dummy.m */; };
 		57ABA453422C7566FE10BFE83427D35D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		7C30090D2FA0D4CB7BA7476508C3D9A5 /* Pods-immsocket_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74834AE18B3E9FD05489B9478EBB7D6F /* Pods-immsocket_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5AFE07A26391EE000C6D554 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE07726391EE000C6D554 /* Connection.m */; };
-		A5AFE07B26391EE000C6D554 /* Connection.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE07826391EE000C6D554 /* Connection.h */; };
-		A5AFE07C26391EE000C6D554 /* ConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE07926391EE000C6D554 /* ConnectionDelegate.h */; };
-		A5AFE08626391F1300C6D554 /* ServerBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08026391F1200C6D554 /* ServerBrowser.h */; };
-		A5AFE08726391F1300C6D554 /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08126391F1200C6D554 /* Server.h */; };
-		A5AFE08826391F1300C6D554 /* ServerBrowserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08226391F1200C6D554 /* ServerBrowserDelegate.h */; };
-		A5AFE08926391F1300C6D554 /* ServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08326391F1300C6D554 /* ServerDelegate.h */; };
-		A5AFE08A26391F1300C6D554 /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE08426391F1300C6D554 /* ServerBrowser.m */; };
-		A5AFE08B26391F1300C6D554 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE08526391F1300C6D554 /* Server.m */; };
-		A5AFE09626391F3000C6D554 /* BaseServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE08F26391F3000C6D554 /* BaseServer.h */; };
-		A5AFE09726391F3000C6D554 /* LoaclServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE09026391F3000C6D554 /* LoaclServer.h */; };
-		A5AFE09826391F3000C6D554 /* BaseServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE09126391F3000C6D554 /* BaseServerDelegate.h */; };
-		A5AFE09926391F3000C6D554 /* ClientServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE09226391F3000C6D554 /* ClientServer.m */; };
-		A5AFE09A26391F3000C6D554 /* BaseServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE09326391F3000C6D554 /* BaseServer.m */; };
-		A5AFE09B26391F3000C6D554 /* LoaclServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE09426391F3000C6D554 /* LoaclServer.m */; };
-		A5AFE09C26391F3000C6D554 /* ClientServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE09526391F3000C6D554 /* ClientServer.h */; };
-		A5AFE0AA26391FA600C6D554 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE0A026391FA500C6D554 /* ViewController.m */; };
-		A5AFE0AB26391FA600C6D554 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE0A126391FA500C6D554 /* ViewController.h */; };
-		A5AFE0AC26391FA600C6D554 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5AFE0A226391FA500C6D554 /* Main.storyboard */; };
-		A5AFE0AD26391FA600C6D554 /* UIView+CoverUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE0A326391FA500C6D554 /* UIView+CoverUtils.m */; };
-		A5AFE0AE26391FA600C6D554 /* ChatWeViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE0A426391FA600C6D554 /* ChatWeViewCell.h */; };
-		A5AFE0AF26391FA600C6D554 /* ServerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE0A526391FA600C6D554 /* ServerListViewController.m */; };
-		A5AFE0B026391FA600C6D554 /* UIView+CoverUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE0A626391FA600C6D554 /* UIView+CoverUtils.h */; };
-		A5AFE0B126391FA600C6D554 /* ChatWeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A5AFE0A726391FA600C6D554 /* ChatWeViewCell.m */; };
-		A5AFE0B226391FA600C6D554 /* ServerListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A5AFE0A826391FA600C6D554 /* ServerListViewController.h */; };
-		A5AFE0B326391FA600C6D554 /* ChatWeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5AFE0A926391FA600C6D554 /* ChatWeViewCell.xib */; };
+		A502527C2639555500D50F32 /* ServerBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = A502523B2639555400D50F32 /* ServerBrowser.m */; };
+		A502527D2639555500D50F32 /* Server.m in Sources */ = {isa = PBXBuildFile; fileRef = A502523C2639555400D50F32 /* Server.m */; };
+		A502527E2639555500D50F32 /* ServerBrowserDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A502523D2639555400D50F32 /* ServerBrowserDelegate.h */; };
+		A502527F2639555500D50F32 /* ServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A502523E2639555400D50F32 /* ServerDelegate.h */; };
+		A50252802639555500D50F32 /* ServerBrowser.h in Headers */ = {isa = PBXBuildFile; fileRef = A502523F2639555400D50F32 /* ServerBrowser.h */; };
+		A50252812639555500D50F32 /* Server.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252402639555400D50F32 /* Server.h */; };
+		A50252822639555500D50F32 /* ClientServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A50252422639555400D50F32 /* ClientServer.m */; };
+		A50252832639555500D50F32 /* LoaclServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252432639555400D50F32 /* LoaclServer.h */; };
+		A50252842639555500D50F32 /* BaseServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252442639555400D50F32 /* BaseServer.h */; };
+		A50252852639555500D50F32 /* BaseServerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252452639555400D50F32 /* BaseServerDelegate.h */; };
+		A50252862639555500D50F32 /* ClientServer.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252462639555400D50F32 /* ClientServer.h */; };
+		A50252872639555500D50F32 /* LoaclServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A50252472639555400D50F32 /* LoaclServer.m */; };
+		A50252882639555500D50F32 /* BaseServer.m in Sources */ = {isa = PBXBuildFile; fileRef = A50252482639555400D50F32 /* BaseServer.m */; };
+		A50252892639555500D50F32 /* Connection.h in Headers */ = {isa = PBXBuildFile; fileRef = A502524A2639555400D50F32 /* Connection.h */; };
+		A502528A2639555500D50F32 /* ConnectionDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = A502524B2639555400D50F32 /* ConnectionDelegate.h */; };
+		A502528B2639555500D50F32 /* Connection.m in Sources */ = {isa = PBXBuildFile; fileRef = A502524C2639555400D50F32 /* Connection.m */; };
+		A50252BF263959DE00D50F32 /* ChatWeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A50252B5263959DE00D50F32 /* ChatWeViewCell.xib */; };
+		A50252C0263959DE00D50F32 /* ChatWeViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A50252B6263959DE00D50F32 /* ChatWeViewCell.m */; };
+		A50252C1263959DE00D50F32 /* UIView+CoverUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252B7263959DE00D50F32 /* UIView+CoverUtils.h */; };
+		A50252C2263959DE00D50F32 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50252B8263959DE00D50F32 /* ViewController.m */; };
+		A50252C3263959DE00D50F32 /* ServerListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A50252B9263959DE00D50F32 /* ServerListViewController.m */; };
+		A50252C4263959DE00D50F32 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50252BA263959DE00D50F32 /* Main.storyboard */; };
+		A50252C5263959DE00D50F32 /* ChatWeViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252BB263959DE00D50F32 /* ChatWeViewCell.h */; };
+		A50252C6263959DE00D50F32 /* ServerListViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252BC263959DE00D50F32 /* ServerListViewController.h */; };
+		A50252C7263959DE00D50F32 /* ViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A50252BD263959DE00D50F32 /* ViewController.h */; };
+		A50252C8263959DE00D50F32 /* UIView+CoverUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A50252BE263959DE00D50F32 /* UIView+CoverUtils.m */; };
 		AEB4985A9AD96ACCA198A1B74D844C1A /* immsocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95CA2464685A0FC89633B1668A3D1C6F /* immsocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78B3C94EF674AF47BB30B98A258957C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = F5F87A8B39F45E103E8981F7634F7300 /* ReplaceMe.m */; };
 		D316C1EDE6A0D79C1F69F4790EE71AFB /* immsocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECA21E9654F6D8157CEB25DC5B7313F4 /* immsocket-dummy.m */; };
@@ -67,32 +67,32 @@
 		8D807C957BB31B0DC43B821F26326E91 /* Pods-immsocket_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-immsocket_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		95CA2464685A0FC89633B1668A3D1C6F /* immsocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "immsocket-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A5AFE07726391EE000C6D554 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
-		A5AFE07826391EE000C6D554 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
-		A5AFE07926391EE000C6D554 /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
-		A5AFE08026391F1200C6D554 /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
-		A5AFE08126391F1200C6D554 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
-		A5AFE08226391F1200C6D554 /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
-		A5AFE08326391F1300C6D554 /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
-		A5AFE08426391F1300C6D554 /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
-		A5AFE08526391F1300C6D554 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
-		A5AFE08F26391F3000C6D554 /* BaseServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServer.h; sourceTree = "<group>"; };
-		A5AFE09026391F3000C6D554 /* LoaclServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaclServer.h; sourceTree = "<group>"; };
-		A5AFE09126391F3000C6D554 /* BaseServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServerDelegate.h; sourceTree = "<group>"; };
-		A5AFE09226391F3000C6D554 /* ClientServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientServer.m; sourceTree = "<group>"; };
-		A5AFE09326391F3000C6D554 /* BaseServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseServer.m; sourceTree = "<group>"; };
-		A5AFE09426391F3000C6D554 /* LoaclServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaclServer.m; sourceTree = "<group>"; };
-		A5AFE09526391F3000C6D554 /* ClientServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientServer.h; sourceTree = "<group>"; };
-		A5AFE0A026391FA500C6D554 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A5AFE0A126391FA500C6D554 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A5AFE0A226391FA500C6D554 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		A5AFE0A326391FA500C6D554 /* UIView+CoverUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CoverUtils.m"; sourceTree = "<group>"; };
-		A5AFE0A426391FA600C6D554 /* ChatWeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatWeViewCell.h; sourceTree = "<group>"; };
-		A5AFE0A526391FA600C6D554 /* ServerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerListViewController.m; sourceTree = "<group>"; };
-		A5AFE0A626391FA600C6D554 /* UIView+CoverUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CoverUtils.h"; sourceTree = "<group>"; };
-		A5AFE0A726391FA600C6D554 /* ChatWeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatWeViewCell.m; sourceTree = "<group>"; };
-		A5AFE0A826391FA600C6D554 /* ServerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerListViewController.h; sourceTree = "<group>"; };
-		A5AFE0A926391FA600C6D554 /* ChatWeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWeViewCell.xib; sourceTree = "<group>"; };
+		A502523B2639555400D50F32 /* ServerBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerBrowser.m; sourceTree = "<group>"; };
+		A502523C2639555400D50F32 /* Server.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Server.m; sourceTree = "<group>"; };
+		A502523D2639555400D50F32 /* ServerBrowserDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowserDelegate.h; sourceTree = "<group>"; };
+		A502523E2639555400D50F32 /* ServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerDelegate.h; sourceTree = "<group>"; };
+		A502523F2639555400D50F32 /* ServerBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerBrowser.h; sourceTree = "<group>"; };
+		A50252402639555400D50F32 /* Server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Server.h; sourceTree = "<group>"; };
+		A50252422639555400D50F32 /* ClientServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClientServer.m; sourceTree = "<group>"; };
+		A50252432639555400D50F32 /* LoaclServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaclServer.h; sourceTree = "<group>"; };
+		A50252442639555400D50F32 /* BaseServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServer.h; sourceTree = "<group>"; };
+		A50252452639555400D50F32 /* BaseServerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseServerDelegate.h; sourceTree = "<group>"; };
+		A50252462639555400D50F32 /* ClientServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClientServer.h; sourceTree = "<group>"; };
+		A50252472639555400D50F32 /* LoaclServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaclServer.m; sourceTree = "<group>"; };
+		A50252482639555400D50F32 /* BaseServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseServer.m; sourceTree = "<group>"; };
+		A502524A2639555400D50F32 /* Connection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Connection.h; sourceTree = "<group>"; };
+		A502524B2639555400D50F32 /* ConnectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConnectionDelegate.h; sourceTree = "<group>"; };
+		A502524C2639555400D50F32 /* Connection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Connection.m; sourceTree = "<group>"; };
+		A50252B5263959DE00D50F32 /* ChatWeViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatWeViewCell.xib; sourceTree = "<group>"; };
+		A50252B6263959DE00D50F32 /* ChatWeViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatWeViewCell.m; sourceTree = "<group>"; };
+		A50252B7263959DE00D50F32 /* UIView+CoverUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CoverUtils.h"; sourceTree = "<group>"; };
+		A50252B8263959DE00D50F32 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A50252B9263959DE00D50F32 /* ServerListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServerListViewController.m; sourceTree = "<group>"; };
+		A50252BA263959DE00D50F32 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A50252BB263959DE00D50F32 /* ChatWeViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatWeViewCell.h; sourceTree = "<group>"; };
+		A50252BC263959DE00D50F32 /* ServerListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServerListViewController.h; sourceTree = "<group>"; };
+		A50252BD263959DE00D50F32 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A50252BE263959DE00D50F32 /* UIView+CoverUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CoverUtils.m"; sourceTree = "<group>"; };
 		B5A2B7BF8C99558D30409AC7208BB57E /* Pods-immsocket_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-immsocket_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CA6E154F6C19084402EE6C98A7D308F4 /* Pods-immsocket_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-immsocket_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D37DF43A0AE757F95818475DC1B149FB /* immsocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = immsocket.modulemap; sourceTree = "<group>"; };
@@ -167,58 +167,62 @@
 			path = "Target Support Files/Pods-immsocket_Tests";
 			sourceTree = "<group>";
 		};
-		A5AFE07626391EB800C6D554 /* Network */ = {
+		A502523A2639555400D50F32 /* ServerAPI */ = {
 			isa = PBXGroup;
 			children = (
-				A5AFE07826391EE000C6D554 /* Connection.h */,
-				A5AFE07726391EE000C6D554 /* Connection.m */,
-				A5AFE07926391EE000C6D554 /* ConnectionDelegate.h */,
+				A502523B2639555400D50F32 /* ServerBrowser.m */,
+				A502523C2639555400D50F32 /* Server.m */,
+				A502523D2639555400D50F32 /* ServerBrowserDelegate.h */,
+				A502523E2639555400D50F32 /* ServerDelegate.h */,
+				A502523F2639555400D50F32 /* ServerBrowser.h */,
+				A50252402639555400D50F32 /* Server.h */,
 			);
-			path = Network;
+			name = ServerAPI;
+			path = immsocket/Classes/ServerAPI;
 			sourceTree = "<group>";
 		};
-		A5AFE07F26391EFD00C6D554 /* ServerAPI */ = {
+		A50252412639555400D50F32 /* Server */ = {
 			isa = PBXGroup;
 			children = (
-				A5AFE08126391F1200C6D554 /* Server.h */,
-				A5AFE08526391F1300C6D554 /* Server.m */,
-				A5AFE08026391F1200C6D554 /* ServerBrowser.h */,
-				A5AFE08426391F1300C6D554 /* ServerBrowser.m */,
-				A5AFE08226391F1200C6D554 /* ServerBrowserDelegate.h */,
-				A5AFE08326391F1300C6D554 /* ServerDelegate.h */,
+				A50252422639555400D50F32 /* ClientServer.m */,
+				A50252432639555400D50F32 /* LoaclServer.h */,
+				A50252442639555400D50F32 /* BaseServer.h */,
+				A50252452639555400D50F32 /* BaseServerDelegate.h */,
+				A50252462639555400D50F32 /* ClientServer.h */,
+				A50252472639555400D50F32 /* LoaclServer.m */,
+				A50252482639555400D50F32 /* BaseServer.m */,
 			);
-			path = ServerAPI;
+			name = Server;
+			path = immsocket/Classes/Server;
 			sourceTree = "<group>";
 		};
-		A5AFE08E26391F1F00C6D554 /* Server */ = {
+		A50252492639555400D50F32 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				A5AFE08F26391F3000C6D554 /* BaseServer.h */,
-				A5AFE09326391F3000C6D554 /* BaseServer.m */,
-				A5AFE09126391F3000C6D554 /* BaseServerDelegate.h */,
-				A5AFE09526391F3000C6D554 /* ClientServer.h */,
-				A5AFE09226391F3000C6D554 /* ClientServer.m */,
-				A5AFE09026391F3000C6D554 /* LoaclServer.h */,
-				A5AFE09426391F3000C6D554 /* LoaclServer.m */,
+				A502524A2639555400D50F32 /* Connection.h */,
+				A502524B2639555400D50F32 /* ConnectionDelegate.h */,
+				A502524C2639555400D50F32 /* Connection.m */,
 			);
-			path = Server;
+			name = Network;
+			path = immsocket/Classes/Network;
 			sourceTree = "<group>";
 		};
-		A5AFE09F26391F8F00C6D554 /* UI */ = {
+		A50252B4263959DE00D50F32 /* UI */ = {
 			isa = PBXGroup;
 			children = (
-				A5AFE0A426391FA600C6D554 /* ChatWeViewCell.h */,
-				A5AFE0A726391FA600C6D554 /* ChatWeViewCell.m */,
-				A5AFE0A926391FA600C6D554 /* ChatWeViewCell.xib */,
-				A5AFE0A226391FA500C6D554 /* Main.storyboard */,
-				A5AFE0A826391FA600C6D554 /* ServerListViewController.h */,
-				A5AFE0A526391FA600C6D554 /* ServerListViewController.m */,
-				A5AFE0A626391FA600C6D554 /* UIView+CoverUtils.h */,
-				A5AFE0A326391FA500C6D554 /* UIView+CoverUtils.m */,
-				A5AFE0A126391FA500C6D554 /* ViewController.h */,
-				A5AFE0A026391FA500C6D554 /* ViewController.m */,
+				A50252B5263959DE00D50F32 /* ChatWeViewCell.xib */,
+				A50252B6263959DE00D50F32 /* ChatWeViewCell.m */,
+				A50252B7263959DE00D50F32 /* UIView+CoverUtils.h */,
+				A50252B8263959DE00D50F32 /* ViewController.m */,
+				A50252B9263959DE00D50F32 /* ServerListViewController.m */,
+				A50252BA263959DE00D50F32 /* Main.storyboard */,
+				A50252BB263959DE00D50F32 /* ChatWeViewCell.h */,
+				A50252BC263959DE00D50F32 /* ServerListViewController.h */,
+				A50252BD263959DE00D50F32 /* ViewController.h */,
+				A50252BE263959DE00D50F32 /* UIView+CoverUtils.m */,
 			);
-			path = UI;
+			name = UI;
+			path = immsocket/Classes/UI;
 			sourceTree = "<group>";
 		};
 		C34BBDABE8902FDC98BCB1019A9B5480 /* Support Files */ = {
@@ -258,10 +262,10 @@
 		E2E0B88631738CC7650A73D97594FA5D /* immsocket */ = {
 			isa = PBXGroup;
 			children = (
-				A5AFE09F26391F8F00C6D554 /* UI */,
-				A5AFE08E26391F1F00C6D554 /* Server */,
-				A5AFE07F26391EFD00C6D554 /* ServerAPI */,
-				A5AFE07626391EB800C6D554 /* Network */,
+				A50252B4263959DE00D50F32 /* UI */,
+				A50252492639555400D50F32 /* Network */,
+				A50252412639555400D50F32 /* Server */,
+				A502523A2639555400D50F32 /* ServerAPI */,
 				F5F87A8B39F45E103E8981F7634F7300 /* ReplaceMe.m */,
 				E3AE576B7A0488B557E0AB442826D015 /* Pod */,
 				C34BBDABE8902FDC98BCB1019A9B5480 /* Support Files */,
@@ -295,21 +299,21 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AFE08626391F1300C6D554 /* ServerBrowser.h in Headers */,
-				A5AFE08826391F1300C6D554 /* ServerBrowserDelegate.h in Headers */,
-				A5AFE07C26391EE000C6D554 /* ConnectionDelegate.h in Headers */,
-				A5AFE0AE26391FA600C6D554 /* ChatWeViewCell.h in Headers */,
-				A5AFE07B26391EE000C6D554 /* Connection.h in Headers */,
-				A5AFE0B226391FA600C6D554 /* ServerListViewController.h in Headers */,
-				A5AFE09726391F3000C6D554 /* LoaclServer.h in Headers */,
-				A5AFE0AB26391FA600C6D554 /* ViewController.h in Headers */,
-				A5AFE09626391F3000C6D554 /* BaseServer.h in Headers */,
+				A502528A2639555500D50F32 /* ConnectionDelegate.h in Headers */,
+				A50252812639555500D50F32 /* Server.h in Headers */,
+				A50252862639555500D50F32 /* ClientServer.h in Headers */,
+				A50252C5263959DE00D50F32 /* ChatWeViewCell.h in Headers */,
+				A50252C6263959DE00D50F32 /* ServerListViewController.h in Headers */,
+				A50252842639555500D50F32 /* BaseServer.h in Headers */,
+				A50252832639555500D50F32 /* LoaclServer.h in Headers */,
+				A50252802639555500D50F32 /* ServerBrowser.h in Headers */,
 				AEB4985A9AD96ACCA198A1B74D844C1A /* immsocket-umbrella.h in Headers */,
-				A5AFE09C26391F3000C6D554 /* ClientServer.h in Headers */,
-				A5AFE09826391F3000C6D554 /* BaseServerDelegate.h in Headers */,
-				A5AFE0B026391FA600C6D554 /* UIView+CoverUtils.h in Headers */,
-				A5AFE08726391F1300C6D554 /* Server.h in Headers */,
-				A5AFE08926391F1300C6D554 /* ServerDelegate.h in Headers */,
+				A502527E2639555500D50F32 /* ServerBrowserDelegate.h in Headers */,
+				A502527F2639555500D50F32 /* ServerDelegate.h in Headers */,
+				A50252C1263959DE00D50F32 /* UIView+CoverUtils.h in Headers */,
+				A50252892639555500D50F32 /* Connection.h in Headers */,
+				A50252852639555500D50F32 /* BaseServerDelegate.h in Headers */,
+				A50252C7263959DE00D50F32 /* ViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,8 +405,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AFE0B326391FA600C6D554 /* ChatWeViewCell.xib in Resources */,
-				A5AFE0AC26391FA600C6D554 /* Main.storyboard in Resources */,
+				A50252BF263959DE00D50F32 /* ChatWeViewCell.xib in Resources */,
+				A50252C4263959DE00D50F32 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,18 +425,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5AFE0AA26391FA600C6D554 /* ViewController.m in Sources */,
-				A5AFE0AF26391FA600C6D554 /* ServerListViewController.m in Sources */,
-				A5AFE0B126391FA600C6D554 /* ChatWeViewCell.m in Sources */,
-				A5AFE09A26391F3000C6D554 /* BaseServer.m in Sources */,
+				A502527D2639555500D50F32 /* Server.m in Sources */,
+				A50252C3263959DE00D50F32 /* ServerListViewController.m in Sources */,
 				D316C1EDE6A0D79C1F69F4790EE71AFB /* immsocket-dummy.m in Sources */,
-				A5AFE09B26391F3000C6D554 /* LoaclServer.m in Sources */,
-				A5AFE08A26391F1300C6D554 /* ServerBrowser.m in Sources */,
+				A50252882639555500D50F32 /* BaseServer.m in Sources */,
 				B78B3C94EF674AF47BB30B98A258957C /* ReplaceMe.m in Sources */,
-				A5AFE0AD26391FA600C6D554 /* UIView+CoverUtils.m in Sources */,
-				A5AFE07A26391EE000C6D554 /* Connection.m in Sources */,
-				A5AFE08B26391F1300C6D554 /* Server.m in Sources */,
-				A5AFE09926391F3000C6D554 /* ClientServer.m in Sources */,
+				A50252C2263959DE00D50F32 /* ViewController.m in Sources */,
+				A50252C8263959DE00D50F32 /* UIView+CoverUtils.m in Sources */,
+				A50252872639555500D50F32 /* LoaclServer.m in Sources */,
+				A50252C0263959DE00D50F32 /* ChatWeViewCell.m in Sources */,
+				A502527C2639555500D50F32 /* ServerBrowser.m in Sources */,
+				A50252822639555500D50F32 /* ClientServer.m in Sources */,
+				A502528B2639555500D50F32 /* Connection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

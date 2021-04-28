@@ -32,6 +32,7 @@ TODO: 聊天室
 
   s.source_files = 'immsocket/Classes/**/*'
   
+  
   # s.resource_bundles = {
   #   'immsocket' => ['immsocket/Assets/*.png']
   # }
